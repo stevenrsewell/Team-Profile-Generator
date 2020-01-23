@@ -1,5 +1,5 @@
-# Homework10
- Team Profile Generator
+# Team Profile Generator - Homework 10
+
 https://github.com/stevenrsewell/Homework10
 
  ## Summary
