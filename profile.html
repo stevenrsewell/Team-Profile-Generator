@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+    <head>
+        <title></title>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>    
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+        <style>
+            header {
+                position: relative;
+                background-color: red;
+                color: black;
+                width: 100%;
+                height: 100px;
+            }
+            header h1{
+                position: relative;
+                left: 40%
+            }
+            .card col-md-2{
+                border: solid;
+            }
+            .card-header {
+                background-color: blue;
+                color: white;
+            }
+            .card-body {
+                color: teal
+            }
+            .row{
+                place-content: center;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <header>
+            <h1>My Team</h1>
+        </header>
+        <div class=row><div class="card col-md-2" style="width: 18rem;">
+            <div class="card-header">
+                <h2 class="card-title"><span id="name">Mr. Krabs</span> 
+                <br> 
+                Manager
+                </h2>
+            </div>
+            <div class="card-body">
+                <p class="card-text">
+                    <div>ID: <span id="ID">44</span></div>
+                        <div>Email: <span id="email">mr.krabs@thekrustykrab.com</span></div>
+                    <div>Office Number:: <span id="role">140</span></div>
+                </p>
+            </div>
+        </div><div class="card col-md-2" style="width: 18rem;">
+            <div class="card-header">
+                <h2 class="card-title"><span id="name">Spongebob</span> 
+                <br> 
+                Engineer
+                </h2>
+            </div>
+            <div class="card-body">
+                <p class="card-text">
+                    <div>ID: <span id="ID">50</span></div>
+                        <div>Email: <span id="email">spongebob@thekrustykrab.com</span></div>
+                    <div>GitHub:: <span id="role">sponge_bob</span></div>
+                </p>
+            </div>
+        </div><div class="card col-md-2" style="width: 18rem;">
+            <div class="card-header">
+                <h2 class="card-title"><span id="name">Patrick</span> 
+                <br> 
+                Intern
+                </h2>
+            </div>
+            <div class="card-body">
+                <p class="card-text">
+                    <div>ID: <span id="ID">8</span></div>
+                        <div>Email: <span id="email">patrick@thekrustykrab.com</span></div>
+                    <div>School:: <span id="role">Starfish Academy</span></div>
+                </p>
+            </div>
+        </div></div></body></html>
