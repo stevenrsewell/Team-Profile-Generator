@@ -1,4 +1,4 @@
-# Team Profile Generator - Homework 10
+# Team Profile Generator - HW 10
 
 https://github.com/stevenrsewell/Team-Profile-Generator
 
@@ -17,6 +17,6 @@ This is a command line application that will display the profile information of 
  <li>HTML
 
  ## Screenshots
-<img src="./screenshot2.png">
+<img src="./screenshot2.png"></img>
 <br>
-<img src="./screenshot.png">
+<img src="./screenshot.png"></img>
