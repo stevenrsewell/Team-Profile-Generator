@@ -17,6 +17,6 @@ This is a command line application that will display the profile information of 
  <li>HTML
 
  ## Screenshots
-<img src="./screenshot2.png"></img>
+<img src="/Screenshot2.png"></img>
 <br>
-<img src="./screenshot.png"></img>
+<img src="/Screenshot.png"></img>
